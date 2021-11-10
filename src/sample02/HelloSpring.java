@@ -11,8 +11,8 @@ public class HelloSpring {
 		Calc calc = context.getBean("calcAdd",Calc.class);
 		calc.calculate();
 		
-//		calc = context.getBean("calcMul",Calc.class);
-//		calc.calculate();
+		calc = context.getBean("calcMul",Calc.class);
+		calc.calculate();
 	}
 
 }
